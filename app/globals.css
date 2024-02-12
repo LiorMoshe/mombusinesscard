@@ -16,14 +16,23 @@
   }
 }
 
+html,
 body {
+  height: 100%;
+  /* This makes sure the html and body are at least the height of the viewport */
+  margin: 0;
+  /* Removes the default margin */
+  padding: 0;
+  /* Removes the default padding */
+}
+
+body {
+  min-height: 100vh;
+  /* This ensures the body is at least the height of the viewport */
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 @layer utilities {
