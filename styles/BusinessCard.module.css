@@ -13,13 +13,6 @@
   background-color: #f9f9ff;
 }
 
-@media (max-width: 768px) {
-
-  /* Adjust the max-width as needed for your mobile breakpoint */
-  .container {
-    background-color: #0a054d;
-  }
-}
 
 .p {
   color: #f9f9ff;
@@ -31,6 +24,21 @@
   align-items: center;
   width: 100%;
   /* Ensures the container takes the full width of its parent */
+}
+
+
+@media (max-width: 768px) {
+
+  /* Adjust the max-width as needed for your mobile breakpoint */
+  .container {
+    background-color: #0a054d;
+  }
+
+  .logoContainer {
+    margin-top: -80px;
+  }
+
+
 }
 
 .card {
@@ -109,9 +117,7 @@
   align-items: center;
 }
 
-.icon:hover {
-  background-color: #3a2fcf;
-}
+
 
 .icon span {
   font-size: 3rem;
