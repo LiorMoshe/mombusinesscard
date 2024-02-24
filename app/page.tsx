@@ -36,11 +36,11 @@ export default function Home() {
       <div className={styles.card}>
         <div className={styles.logoContainer}>
           {/* SET THE CSS FOR ME TO BE CENTERED, AT THE CENTER AND HAVE WIDTH TWICE AS HEIGHT SINCE IM WIDE */}
-          <Image src="/flat_logo.png" alt="Flat Logo" width={240} height={120} />
+          <Image src="/test_logo.png" alt="Flat Logo" width={240} height={120} />
         </div>
         <div className={styles.profilePic}>
           {/* Replace '/path/to/profile-pic.jpg' with the path to your mom's profile picture */}
-          <Image src="/mom_pic.png" alt="Profile Picture" width={120} height={120} className={styles.profileImage} />
+          <Image src="/mom_face_business.jpeg" alt="Profile Picture" width={120} height={120} className={styles.profileImage} />
         </div>
         <div className={styles.header}>
           <h1>קארן משה</h1>
@@ -54,7 +54,7 @@ export default function Home() {
             <div className={styles.icon} onClick={openWhatsAppChat}>
               <img src="/whatsapp.svg" alt="whatsapp" width="80" height="80" />
             </div>
-            <span className={styles.iconLabel}>whatsapp</span>
+            <span className={styles.iconLabel}>וואצאפ</span>
           </div>
 
           <div className={`${styles.iconFlexContainer} ${styles.email}`}>
