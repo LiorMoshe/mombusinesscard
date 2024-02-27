@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <div className={styles.profilePic}>
           {/* Replace '/path/to/profile-pic.jpg' with the path to your mom's profile picture */}
-          <Image src="/mom_face_business.jpeg" alt="Profile Picture" width={120} height={120} className={styles.profileImage} />
+          <Image src="/mom_business_2.jpeg" alt="Profile Picture" width={168} height={168} className={styles.profileImage} />
         </div>
         <div className={styles.header}>
           <h1>קארן משה</h1>
